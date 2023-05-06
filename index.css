@@ -7,6 +7,7 @@
 
 * {
   margin: 0px;
+  scroll-behavior: smooth;
 }
 .preloader {
   align-items: center;
@@ -544,7 +545,7 @@ main {
     text-decoration: none;
    font-family: "Neuton", serif;
   }
-  
+
 
 
   .header-list ul li::after {
