@@ -137,7 +137,8 @@ input{
 .action-btn{
     width: 100%;
     display: flex;
-    margin: 30px 0;
+    justify-content: center;
+    margin: 30px auto;
 }
 
 .btn{
