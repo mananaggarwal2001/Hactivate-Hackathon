@@ -5,8 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href='donate.css'>
-    <link rel="stylesheet" href="Register.css">
+    <link rel="stylesheet" href='organDonor.css'>
     <link rel="icon" href='./Images/Logo Image.png' type="image/png">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
 </head>
@@ -22,7 +21,7 @@
                     <li><a href="organDonor.html" target="_blank">Donate</a></li>
                     <li><a href="donate.html">Find an organ</a></li>
                     <li><a href="index.html#vol-sect" target="_blank">Volunteer</a></li>
-                    <li><a href="index.html#about-us" target="_blank">About Us</a></li>
+                    <li><a href="index.html#about-us" target="_blank">Home</a></li>
                 </ul>
             </div>
         </nav>
@@ -30,7 +29,7 @@
     <main>
         <div class="inner">
             <div class="photo">
-                <img src="./Images/SavelifesSaveHumanity.png">
+                <img src="./Images/DonorImage.png">
             </div>
             <div class="user-form">
                 <h1 class="text-uppercase">donate and save lives</h1>
@@ -41,18 +40,34 @@
                     <i class="fas fa-phone"></i>
                     <input type="text" placeholder="Phone Number">
                     <br>
+                    <i class="fas fa-envelope"></i>
+                    <input type="text" placeholder="Email ID">
+                    <br>
+                    <i class="fas fa-baby "></i>
+                    <input type="number"  placeholder="Enter your Age" id="password_data">
+                    <br>
+                    <i class="fas fa-genderless "></i>
+                    <input type="text" placeholder="Enter your Gender" id="password_data">
+                    <br>
                     <i class="fas fa-house-user"></i>
                     <input type="text" placeholder="Enter your Address" id="password_data">
                     <br>
                     <i class="fas fa-city "></i>
                     <input type="text" placeholder="Enter your City" id="password_data">
+                    <br>
+                    <div class="check">
+                        Do you have any medical problem?
+                          <label class="lableClass" for="yes"> Yes</label>
+                          <input type="radio" class="radioClass" id="yes" name="radio1" value="yes">
+                          <label class="lableClass" for="no"> No</label>
+                          <input type="radio" class="radioClass" id="no" name="radio1" value="no">
+                    </div>
                     <div class="action-btn">
                         <button class="btn primary">Submit</button>
                     </div>
                 </form>
             </div>
         </div>
-        <script src="./Register.js"></script>
     </main>
     <script src="donate.js"></script>
 </body>
